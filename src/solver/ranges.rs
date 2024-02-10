@@ -1,0 +1,6 @@
+pub let utg_preflop_range = ""
+pub let hj_preflop_range = ""
+pub let co_preflop_range = ""
+pub let btn_preflop_range = ""
+pub let sb_preflop_range = ""
+pub let bb_preflop_range = ""
