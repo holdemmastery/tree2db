@@ -52,8 +52,9 @@ pub struct OptionEVPair {
 
 #[derive(Serialize, Deserialize)]
 pub struct Problem {
-    pub time_created: i32,
+    pub time_created: u64,
     pub hero_position: Position,
+    pub problem_elo: u16,
     pub villain_position: Position,
     pub hole_cards: String,
     pub board: String,
